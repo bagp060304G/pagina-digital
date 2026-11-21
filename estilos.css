@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9eef2;
+    color: #2d3748;
+    line-height: 1.65;
+    padding: 24px 16px 44px;
+}
+
+.menu-navegacion {
+    max-width: 840px;
+    margin: 0 auto 22px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 24px 20px;
+    border: 1px solid #cbd5e0;
+    border-top: 4px solid #1f4e5f;
+    box-shadow: 0 2px 8px rgba(31, 78, 95, 0.08);
+}
+
+.menu-titulo {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #1f4e5f;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e2e8f0;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.menu-titulo i {
+    margin-right: 6px;
+    color: #2c7a7b;
+}
+
+.menu-lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-lista li {
+    width: 31.5%;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: #334155;
+    padding: 8px 6px;
+    font-size: 0.86rem;
+    font-weight: 600;
+    border-left: 3px solid transparent;
+}
+
+.menu-link strong {
+    color: #2c7a7b;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.menu-link:hover {
+    background-color: #f1f7f8;
+    color: #1f4e5f;
+    border-left: 3px solid #79a8a9;
+}
+
+.menu-link.activo {
+    background-color: #e6f2f2;
+    color: #1f4e5f;
+    border-left: 3px solid #1f4e5f;
+    font-weight: 700;
+}
+
+.menu-link.activo strong {
+    color: #1f4e5f;
+}
+
+.tarjeta-principal {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #cbd5e0;
+    box-shadow: 0 4px 16px rgba(31, 78, 95, 0.12);
+}
+
+.encabezado {
+    background-color: #1f4e5f;
+    color: #ffffff;
+    padding: 26px 32px 28px;
+}
+
+.marca {
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #d9ecee;
+    margin-bottom: 10px;
+}
+
+.marca i {
+    margin-right: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.encabezado h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.encabezado p {
+    font-size: 0.96rem;
+    color: #e2eff1;
+}
+
+.contenido {
+    padding: 30px 34px 34px;
+}
+
+.contenido h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1f4e5f;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.contenido h2:first-child {
+    margin-top: 0;
+}
+
+.contenido p {
+    font-size: 0.98rem;
+    color: #334155;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.contenido ul {
+    margin: 10px 0 22px 24px;
+    color: #334155;
+    font-size: 0.96rem;
+}
+
+.contenido ul li {
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+
+.caja-resumen {
+    background-color: #e6f2f2;
+    border-left: 4px solid #2c7a7b;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0 24px;
+}
+
+.caja-resumen .caja-etiqueta {
+    font-size: 0.9rem;
+    color: #1f4e5f;
+    letter-spacing: 0.4px;
+    margin-bottom: 6px;
+}
+
+.caja-resumen .caja-etiqueta i {
+    margin-right: 6px;
+    color: #2c7a7b;
+}
+
+.caja-resumen p {
+    color: #235c5d;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.caja-destacada {
+    background-color: #fdf2e9;
+    border-left: 4px solid #c06c3b;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0 24px 20px;
+}
+
+.caja-destacada .caja-etiqueta {
+    font-size: 0.9rem;
+    color: #5c3a21;
+    letter-spacing: 0.4px;
+    margin-bottom: 6px;
+}
+
+.caja-destacada .caja-etiqueta i {
+    margin-right: 6px;
+    color: #c06c3b;
+}
+
+.caja-destacada p {
+    color: #7c4422;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.pie-pagina {
+    background-color: #1f4e5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .menu-lista li {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-lista li {
+        width: 100%;
+    }
+
+    .encabezado {
+        padding: 22px 20px;
+    }
+
+    .encabezado h1 {
+        font-size: 1.45rem;
+    }
+
+    .contenido {
+        padding: 22px 20px;
+    }
+
+    .caja-destacada {
+        margin-left: 0;
+    }
+}
